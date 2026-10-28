@@ -1,0 +1,2 @@
+# Exact Nokia 6 Android 9 619F inputs selected for the current bring-up stage.
+# Payload redistribution remains unverified; hashes and paths are authoritative.
