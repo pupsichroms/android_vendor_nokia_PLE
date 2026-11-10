@@ -1,0 +1,3 @@
+# sha256	source relative to stock system/	destination relative to proprietary/
+d0a19423e9dbf903fba8e0177418ec286f0c0a78536858703b9c56b0eac51e9c	vendor/firmware/wlan/prima/WCNSS_qcom_cfg_PLE.ini	vendor/etc/wifi/WCNSS_qcom_cfg.ini
+66d8aa043111f6bdce04cfb5c8d09d43f65f853506f996da357d89122e0ac1ae	etc/firmware/wlan/prima/WCNSS_cfg.dat	vendor/firmware/wlan/prima/WCNSS_cfg.dat
