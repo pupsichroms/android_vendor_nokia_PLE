@@ -1,0 +1,715 @@
+{
+  "input_sha256": "f0b54907c1509d358849f5cca70cf83ae030874f1f1754a8cf01b64fac0c2581",
+  "output_sha256": "6fd92c6ddfe368a35255ebab4204cff5d2cfe0d501db65b840fa97fe4d72583e",
+  "functions": 7,
+  "parcel_bytes": 120,
+  "frames": [
+    {
+      "pc": 47436,
+      "frame_before": 272,
+      "parcel_offsets_before": [
+        8,
+        112
+      ],
+      "unwind": "unchanged W29+16; saved registers and FP both shift32"
+    },
+    {
+      "pc": 48056,
+      "frame_before": 320,
+      "parcel_offsets_before": [
+        24,
+        128
+      ],
+      "unwind": "unchanged W29+16; saved registers and FP both shift32"
+    },
+    {
+      "pc": 48424,
+      "frame_before": 272,
+      "parcel_offsets_before": [
+        8,
+        112
+      ],
+      "unwind": "unchanged W29+16; saved registers and FP both shift32"
+    },
+    {
+      "pc": 48612,
+      "frame_before": 272,
+      "parcel_offsets_before": [
+        8,
+        112
+      ],
+      "unwind": "unchanged W29+16; saved registers and FP both shift32"
+    },
+    {
+      "pc": 48800,
+      "frame_before": 272,
+      "parcel_offsets_before": [
+        8,
+        112
+      ],
+      "unwind": "unchanged W29+16; saved registers and FP both shift32"
+    },
+    {
+      "pc": 48988,
+      "frame_before": 288,
+      "parcel_offsets_before": [
+        8,
+        112
+      ],
+      "unwind": "unchanged W29+16; saved registers and FP both shift32"
+    },
+    {
+      "pc": 49200,
+      "frame_before": 272,
+      "parcel_offsets_before": [
+        8,
+        112
+      ],
+      "unwind": "unchanged W29+16; saved registers and FP both shift32"
+    }
+  ],
+  "patches": [
+    {
+      "offset": 35148,
+      "old": "ff4304d1",
+      "new": "ffc304d1",
+      "reason": "b94c: sub\tsp, sp, #0x110"
+    },
+    {
+      "offset": 35152,
+      "old": "fc570ea9",
+      "new": "fc5710a9",
+      "reason": "b94c: stp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 35156,
+      "old": "f44f0fa9",
+      "new": "f44f11a9",
+      "reason": "b94c: stp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 35160,
+      "old": "fd7b10a9",
+      "new": "fd7b12a9",
+      "reason": "b94c: stp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 35164,
+      "old": "fd030491",
+      "new": "fd830491",
+      "reason": "b94c: add\tx29, sp, #0x100"
+    },
+    {
+      "offset": 35180,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "b94c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 35212,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "b94c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 35220,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "b94c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 35240,
+      "old": "e2c30191",
+      "new": "e2030291",
+      "reason": "b94c: add\tx2, sp, #0x70"
+    },
+    {
+      "offset": 35264,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "b94c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 35280,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "b94c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 35304,
+      "old": "fd7b50a9",
+      "new": "fd7b52a9",
+      "reason": "b94c: ldp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 35308,
+      "old": "f44f4fa9",
+      "new": "f44f51a9",
+      "reason": "b94c: ldp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 35312,
+      "old": "fc574ea9",
+      "new": "fc5750a9",
+      "reason": "b94c: ldp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 35316,
+      "old": "ff430491",
+      "new": "ffc30491",
+      "reason": "b94c: add\tsp, sp, #0x110"
+    },
+    {
+      "offset": 35768,
+      "old": "ff0305d1",
+      "new": "ff8305d1",
+      "reason": "bbb8: sub\tsp, sp, #0x140"
+    },
+    {
+      "offset": 35772,
+      "old": "fc670fa9",
+      "new": "fc6711a9",
+      "reason": "bbb8: stp\tx28, x25, [sp, #0xf0]"
+    },
+    {
+      "offset": 35776,
+      "old": "f85f10a9",
+      "new": "f85f12a9",
+      "reason": "bbb8: stp\tx24, x23, [sp, #0x100]"
+    },
+    {
+      "offset": 35780,
+      "old": "f65711a9",
+      "new": "f65713a9",
+      "reason": "bbb8: stp\tx22, x21, [sp, #0x110]"
+    },
+    {
+      "offset": 35784,
+      "old": "f44f12a9",
+      "new": "f44f14a9",
+      "reason": "bbb8: stp\tx20, x19, [sp, #0x120]"
+    },
+    {
+      "offset": 35788,
+      "old": "fd7b13a9",
+      "new": "fd7b15a9",
+      "reason": "bbb8: stp\tx29, x30, [sp, #0x130]"
+    },
+    {
+      "offset": 35792,
+      "old": "fdc30491",
+      "new": "fd430591",
+      "reason": "bbb8: add\tx29, sp, #0x130"
+    },
+    {
+      "offset": 35808,
+      "old": "e0030291",
+      "new": "e0430291",
+      "reason": "bbb8: add\tx0, sp, #0x80"
+    },
+    {
+      "offset": 35856,
+      "old": "e0030291",
+      "new": "e0430291",
+      "reason": "bbb8: add\tx0, sp, #0x80"
+    },
+    {
+      "offset": 35864,
+      "old": "e0030291",
+      "new": "e0430291",
+      "reason": "bbb8: add\tx0, sp, #0x80"
+    },
+    {
+      "offset": 35876,
+      "old": "e0030291",
+      "new": "e0430291",
+      "reason": "bbb8: add\tx0, sp, #0x80"
+    },
+    {
+      "offset": 35932,
+      "old": "e0030291",
+      "new": "e0430291",
+      "reason": "bbb8: add\tx0, sp, #0x80"
+    },
+    {
+      "offset": 36008,
+      "old": "e2030291",
+      "new": "e2430291",
+      "reason": "bbb8: add\tx2, sp, #0x80"
+    },
+    {
+      "offset": 36076,
+      "old": "e0030291",
+      "new": "e0430291",
+      "reason": "bbb8: add\tx0, sp, #0x80"
+    },
+    {
+      "offset": 36104,
+      "old": "fd7b53a9",
+      "new": "fd7b55a9",
+      "reason": "bbb8: ldp\tx29, x30, [sp, #0x130]"
+    },
+    {
+      "offset": 36108,
+      "old": "f44f52a9",
+      "new": "f44f54a9",
+      "reason": "bbb8: ldp\tx20, x19, [sp, #0x120]"
+    },
+    {
+      "offset": 36112,
+      "old": "f65751a9",
+      "new": "f65753a9",
+      "reason": "bbb8: ldp\tx22, x21, [sp, #0x110]"
+    },
+    {
+      "offset": 36116,
+      "old": "f85f50a9",
+      "new": "f85f52a9",
+      "reason": "bbb8: ldp\tx24, x23, [sp, #0x100]"
+    },
+    {
+      "offset": 36120,
+      "old": "fc674fa9",
+      "new": "fc6751a9",
+      "reason": "bbb8: ldp\tx28, x25, [sp, #0xf0]"
+    },
+    {
+      "offset": 36124,
+      "old": "ff030591",
+      "new": "ff830591",
+      "reason": "bbb8: add\tsp, sp, #0x140"
+    },
+    {
+      "offset": 36136,
+      "old": "ff4304d1",
+      "new": "ffc304d1",
+      "reason": "bd28: sub\tsp, sp, #0x110"
+    },
+    {
+      "offset": 36140,
+      "old": "fc570ea9",
+      "new": "fc5710a9",
+      "reason": "bd28: stp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 36144,
+      "old": "f44f0fa9",
+      "new": "f44f11a9",
+      "reason": "bd28: stp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 36148,
+      "old": "fd7b10a9",
+      "new": "fd7b12a9",
+      "reason": "bd28: stp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 36152,
+      "old": "fd030491",
+      "new": "fd830491",
+      "reason": "bd28: add\tx29, sp, #0x100"
+    },
+    {
+      "offset": 36168,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bd28: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36200,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bd28: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36208,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bd28: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36228,
+      "old": "e2c30191",
+      "new": "e2030291",
+      "reason": "bd28: add\tx2, sp, #0x70"
+    },
+    {
+      "offset": 36272,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bd28: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36300,
+      "old": "fd7b50a9",
+      "new": "fd7b52a9",
+      "reason": "bd28: ldp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 36304,
+      "old": "f44f4fa9",
+      "new": "f44f51a9",
+      "reason": "bd28: ldp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 36308,
+      "old": "fc574ea9",
+      "new": "fc5750a9",
+      "reason": "bd28: ldp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 36312,
+      "old": "ff430491",
+      "new": "ffc30491",
+      "reason": "bd28: add\tsp, sp, #0x110"
+    },
+    {
+      "offset": 36324,
+      "old": "ff4304d1",
+      "new": "ffc304d1",
+      "reason": "bde4: sub\tsp, sp, #0x110"
+    },
+    {
+      "offset": 36328,
+      "old": "fc570ea9",
+      "new": "fc5710a9",
+      "reason": "bde4: stp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 36332,
+      "old": "f44f0fa9",
+      "new": "f44f11a9",
+      "reason": "bde4: stp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 36336,
+      "old": "fd7b10a9",
+      "new": "fd7b12a9",
+      "reason": "bde4: stp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 36340,
+      "old": "fd030491",
+      "new": "fd830491",
+      "reason": "bde4: add\tx29, sp, #0x100"
+    },
+    {
+      "offset": 36356,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bde4: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36388,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bde4: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36396,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bde4: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36416,
+      "old": "e2c30191",
+      "new": "e2030291",
+      "reason": "bde4: add\tx2, sp, #0x70"
+    },
+    {
+      "offset": 36460,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bde4: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36488,
+      "old": "fd7b50a9",
+      "new": "fd7b52a9",
+      "reason": "bde4: ldp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 36492,
+      "old": "f44f4fa9",
+      "new": "f44f51a9",
+      "reason": "bde4: ldp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 36496,
+      "old": "fc574ea9",
+      "new": "fc5750a9",
+      "reason": "bde4: ldp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 36500,
+      "old": "ff430491",
+      "new": "ffc30491",
+      "reason": "bde4: add\tsp, sp, #0x110"
+    },
+    {
+      "offset": 36512,
+      "old": "ff4304d1",
+      "new": "ffc304d1",
+      "reason": "bea0: sub\tsp, sp, #0x110"
+    },
+    {
+      "offset": 36516,
+      "old": "fc570ea9",
+      "new": "fc5710a9",
+      "reason": "bea0: stp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 36520,
+      "old": "f44f0fa9",
+      "new": "f44f11a9",
+      "reason": "bea0: stp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 36524,
+      "old": "fd7b10a9",
+      "new": "fd7b12a9",
+      "reason": "bea0: stp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 36528,
+      "old": "fd030491",
+      "new": "fd830491",
+      "reason": "bea0: add\tx29, sp, #0x100"
+    },
+    {
+      "offset": 36544,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bea0: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36576,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bea0: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36584,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bea0: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36604,
+      "old": "e2c30191",
+      "new": "e2030291",
+      "reason": "bea0: add\tx2, sp, #0x70"
+    },
+    {
+      "offset": 36648,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bea0: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36676,
+      "old": "fd7b50a9",
+      "new": "fd7b52a9",
+      "reason": "bea0: ldp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 36680,
+      "old": "f44f4fa9",
+      "new": "f44f51a9",
+      "reason": "bea0: ldp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 36684,
+      "old": "fc574ea9",
+      "new": "fc5750a9",
+      "reason": "bea0: ldp\tx28, x21, [sp, #0xe0]"
+    },
+    {
+      "offset": 36688,
+      "old": "ff430491",
+      "new": "ffc30491",
+      "reason": "bea0: add\tsp, sp, #0x110"
+    },
+    {
+      "offset": 36700,
+      "old": "ff8304d1",
+      "new": "ff0305d1",
+      "reason": "bf5c: sub\tsp, sp, #0x120"
+    },
+    {
+      "offset": 36704,
+      "old": "fc7300f9",
+      "new": "fc8300f9",
+      "reason": "bf5c: str\tx28, [sp, #0xe0]"
+    },
+    {
+      "offset": 36708,
+      "old": "f6570fa9",
+      "new": "f65711a9",
+      "reason": "bf5c: stp\tx22, x21, [sp, #0xf0]"
+    },
+    {
+      "offset": 36712,
+      "old": "f44f10a9",
+      "new": "f44f12a9",
+      "reason": "bf5c: stp\tx20, x19, [sp, #0x100]"
+    },
+    {
+      "offset": 36716,
+      "old": "fd7b11a9",
+      "new": "fd7b13a9",
+      "reason": "bf5c: stp\tx29, x30, [sp, #0x110]"
+    },
+    {
+      "offset": 36720,
+      "old": "fd430491",
+      "new": "fdc30491",
+      "reason": "bf5c: add\tx29, sp, #0x110"
+    },
+    {
+      "offset": 36736,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bf5c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36772,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bf5c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36780,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bf5c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36792,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bf5c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36812,
+      "old": "e2c30191",
+      "new": "e2030291",
+      "reason": "bf5c: add\tx2, sp, #0x70"
+    },
+    {
+      "offset": 36856,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "bf5c: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36884,
+      "old": "fd7b51a9",
+      "new": "fd7b53a9",
+      "reason": "bf5c: ldp\tx29, x30, [sp, #0x110]"
+    },
+    {
+      "offset": 36888,
+      "old": "f44f50a9",
+      "new": "f44f52a9",
+      "reason": "bf5c: ldp\tx20, x19, [sp, #0x100]"
+    },
+    {
+      "offset": 36892,
+      "old": "f6574fa9",
+      "new": "f65751a9",
+      "reason": "bf5c: ldp\tx22, x21, [sp, #0xf0]"
+    },
+    {
+      "offset": 36896,
+      "old": "fc7340f9",
+      "new": "fc8340f9",
+      "reason": "bf5c: ldr\tx28, [sp, #0xe0]"
+    },
+    {
+      "offset": 36900,
+      "old": "ff830491",
+      "new": "ff030591",
+      "reason": "bf5c: add\tsp, sp, #0x120"
+    },
+    {
+      "offset": 36912,
+      "old": "ff4304d1",
+      "new": "ffc304d1",
+      "reason": "c030: sub\tsp, sp, #0x110"
+    },
+    {
+      "offset": 36916,
+      "old": "fc7300f9",
+      "new": "fc8300f9",
+      "reason": "c030: str\tx28, [sp, #0xe0]"
+    },
+    {
+      "offset": 36920,
+      "old": "f44f0fa9",
+      "new": "f44f11a9",
+      "reason": "c030: stp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 36924,
+      "old": "fd7b10a9",
+      "new": "fd7b12a9",
+      "reason": "c030: stp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 36928,
+      "old": "fd030491",
+      "new": "fd830491",
+      "reason": "c030: add\tx29, sp, #0x100"
+    },
+    {
+      "offset": 36944,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "c030: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36972,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "c030: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 36988,
+      "old": "e2c30191",
+      "new": "e2030291",
+      "reason": "c030: add\tx2, sp, #0x70"
+    },
+    {
+      "offset": 37032,
+      "old": "e0c30191",
+      "new": "e0030291",
+      "reason": "c030: add\tx0, sp, #0x70"
+    },
+    {
+      "offset": 37060,
+      "old": "fd7b50a9",
+      "new": "fd7b52a9",
+      "reason": "c030: ldp\tx29, x30, [sp, #0x100]"
+    },
+    {
+      "offset": 37064,
+      "old": "f44f4fa9",
+      "new": "f44f51a9",
+      "reason": "c030: ldp\tx20, x19, [sp, #0xf0]"
+    },
+    {
+      "offset": 37068,
+      "old": "fc7340f9",
+      "new": "fc8340f9",
+      "reason": "c030: ldr\tx28, [sp, #0xe0]"
+    },
+    {
+      "offset": 37072,
+      "old": "ff430491",
+      "new": "ffc30491",
+      "reason": "c030: add\tsp, sp, #0x110"
+    }
+  ]
+}

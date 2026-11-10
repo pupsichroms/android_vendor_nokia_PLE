@@ -1,0 +1,3542 @@
+{
+  "input_sha256": "84c062caab682ba91b9d7561658e36d046dc3c7dac842de1e5d3eeb58c8edcea",
+  "output_sha256": "58e24435d53197b325a6cb9ec7be15f3e5aa0918a970f585138ba0df6e3813c0",
+  "functions": 42,
+  "parcel_bytes": 120,
+  "patches": [
+    {
+      "offset": 81876,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 81952,
+      "old": "a68f00f9",
+      "new": "a69f00f9",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii stack str\tx6, [x29, #0x118]"
+    },
+    {
+      "offset": 81972,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 82100,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 82132,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 82144,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 82216,
+      "old": "a58f00f9",
+      "new": "a59f00f9",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi stack str\tx5, [x29, #0x118]"
+    },
+    {
+      "offset": 82236,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 82344,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 82376,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 82388,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint9enableGscEi stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 82460,
+      "old": "a58f00f9",
+      "new": "a59f00f9",
+      "reason": "_ZN13BpFingerPrint9enableGscEi stack str\tx5, [x29, #0x118]"
+    },
+    {
+      "offset": 82480,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint9enableGscEi stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 82596,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint9enableGscEi stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 82628,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint9enableGscEi stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 82640,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint10disableNavEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 82708,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint10disableNavEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 82712,
+      "old": "b4830291",
+      "new": "b4c30291",
+      "reason": "_ZN13BpFingerPrint10disableNavEv stack add\tx20, x29, #0xa0"
+    },
+    {
+      "offset": 82816,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint10disableNavEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 82844,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint10disableNavEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 82856,
+      "old": "fd7bada9",
+      "new": "fd7baba9",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii stack stp\tx29, x30, [sp, #-0x130]!"
+    },
+    {
+      "offset": 82936,
+      "old": "a49700f9",
+      "new": "a4a700f9",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii stack str\tx4, [x29, #0x128]"
+    },
+    {
+      "offset": 82956,
+      "old": "b4030391",
+      "new": "b4430391",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii stack add\tx20, x29, #0xc0"
+    },
+    {
+      "offset": 83088,
+      "old": "a29740f9",
+      "new": "a2a740f9",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii stack ldr\tx2, [x29, #0x128]"
+    },
+    {
+      "offset": 83124,
+      "old": "fd7bd3a8",
+      "new": "fd7bd5a8",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii stack ldp\tx29, x30, [sp], #0x130"
+    },
+    {
+      "offset": 83136,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 83204,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 83208,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 83320,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 83348,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 83360,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 83428,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 83432,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 83544,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 83572,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 83584,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint10driverTestEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 83652,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint10driverTestEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 83656,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint10driverTestEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 83768,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint10driverTestEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 83796,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint10driverTestEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 83808,
+      "old": "fd7bada9",
+      "new": "fd7baba9",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi stack stp\tx29, x30, [sp, #-0x130]!"
+    },
+    {
+      "offset": 83888,
+      "old": "a49700f9",
+      "new": "a4a700f9",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi stack str\tx4, [x29, #0x128]"
+    },
+    {
+      "offset": 83908,
+      "old": "b4030391",
+      "new": "b4430391",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi stack add\tx20, x29, #0xc0"
+    },
+    {
+      "offset": 84052,
+      "old": "a29740f9",
+      "new": "a2a740f9",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi stack ldr\tx2, [x29, #0x128]"
+    },
+    {
+      "offset": 84088,
+      "old": "fd7bd3a8",
+      "new": "fd7bd5a8",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi stack ldp\tx29, x30, [sp], #0x130"
+    },
+    {
+      "offset": 84100,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 84168,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 84172,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 84284,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 84312,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 84324,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 84392,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 84412,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 84528,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 84560,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 84572,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint8unRegistEi stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 84640,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint8unRegistEi stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 84660,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint8unRegistEi stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 84776,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint8unRegistEi stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 84808,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint8unRegistEi stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 84820,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 84888,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 84892,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 85004,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 85032,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 85044,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 85112,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 85116,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 85228,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 85256,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 85268,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 85336,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 85340,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 85452,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 85480,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 85492,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint6registEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 85560,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint6registEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 85564,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint6registEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 85676,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint6registEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 85704,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint6registEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 85716,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 85784,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 85804,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 85920,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 85952,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 85964,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint5queryEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 86032,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint5queryEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 86036,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint5queryEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 86148,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint5queryEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 86176,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint5queryEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 86188,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint7setModeEi stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 86256,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint7setModeEi stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 86276,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint7setModeEi stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 86392,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint7setModeEi stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 86424,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint7setModeEi stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 86436,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint10disconnectEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 86504,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint10disconnectEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 86508,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint10disconnectEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 86620,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint10disconnectEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 86648,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint10disconnectEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 86660,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 86704,
+      "old": "b3c30291",
+      "new": "b3030391",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv stack add\tx19, x29, #0xb0"
+    },
+    {
+      "offset": 86712,
+      "old": "a18f00f9",
+      "new": "a19f00f9",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv stack str\tx1, [x29, #0x118]"
+    },
+    {
+      "offset": 86828,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 86860,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 86872,
+      "old": "fd7bada9",
+      "new": "fd7baba9",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ stack stp\tx29, x30, [sp, #-0x130]!"
+    },
+    {
+      "offset": 86900,
+      "old": "b3030391",
+      "new": "b3430391",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ stack add\tx19, x29, #0xc0"
+    },
+    {
+      "offset": 86968,
+      "old": "a49700f9",
+      "new": "a4a700f9",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ stack str\tx4, [x29, #0x128]"
+    },
+    {
+      "offset": 87096,
+      "old": "a29740f9",
+      "new": "a2a740f9",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ stack ldr\tx2, [x29, #0x128]"
+    },
+    {
+      "offset": 87128,
+      "old": "fd7bd3a8",
+      "new": "fd7bd5a8",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ stack ldp\tx29, x30, [sp], #0x130"
+    },
+    {
+      "offset": 87208,
+      "old": "fd7baca9",
+      "new": "fd7baaa9",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj stack stp\tx29, x30, [sp, #-0x140]!"
+    },
+    {
+      "offset": 87296,
+      "old": "a69f00f9",
+      "new": "a6af00f9",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj stack str\tx6, [x29, #0x138]"
+    },
+    {
+      "offset": 87316,
+      "old": "b4430391",
+      "new": "b4830391",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj stack add\tx20, x29, #0xd0"
+    },
+    {
+      "offset": 87492,
+      "old": "a29f40f9",
+      "new": "a2af40f9",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj stack ldr\tx2, [x29, #0x138]"
+    },
+    {
+      "offset": 87528,
+      "old": "fd7bd4a8",
+      "new": "fd7bd6a8",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj stack ldp\tx29, x30, [sp], #0x140"
+    },
+    {
+      "offset": 87540,
+      "old": "fd7bada9",
+      "new": "fd7baba9",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t stack stp\tx29, x30, [sp, #-0x130]!"
+    },
+    {
+      "offset": 87624,
+      "old": "a49700f9",
+      "new": "a4a700f9",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t stack str\tx4, [x29, #0x128]"
+    },
+    {
+      "offset": 87632,
+      "old": "b5030391",
+      "new": "b5430391",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t stack add\tx21, x29, #0xc0"
+    },
+    {
+      "offset": 87808,
+      "old": "a29740f9",
+      "new": "a2a740f9",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t stack ldr\tx2, [x29, #0x128]"
+    },
+    {
+      "offset": 87844,
+      "old": "fd7bd3a8",
+      "new": "fd7bd5a8",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t stack ldp\tx29, x30, [sp], #0x130"
+    },
+    {
+      "offset": 87900,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 87972,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 87992,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 88124,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 88156,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 88168,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 88236,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 88256,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 88376,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 88408,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 88420,
+      "old": "fd7baba9",
+      "new": "fd7ba9a9",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i stack stp\tx29, x30, [sp, #-0x150]!"
+    },
+    {
+      "offset": 88436,
+      "old": "b5830391",
+      "new": "b5c30391",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i stack add\tx21, x29, #0xe0"
+    },
+    {
+      "offset": 88528,
+      "old": "a6a700f9",
+      "new": "a6b700f9",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i stack str\tx6, [x29, #0x148]"
+    },
+    {
+      "offset": 88732,
+      "old": "a2a740f9",
+      "new": "a2b740f9",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i stack ldr\tx2, [x29, #0x148]"
+    },
+    {
+      "offset": 88772,
+      "old": "fd7bd5a8",
+      "new": "fd7bd7a8",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i stack ldp\tx29, x30, [sp], #0x150"
+    },
+    {
+      "offset": 88840,
+      "old": "fd7baca9",
+      "new": "fd7baaa9",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj stack stp\tx29, x30, [sp, #-0x140]!"
+    },
+    {
+      "offset": 88936,
+      "old": "a49f00f9",
+      "new": "a4af00f9",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj stack str\tx4, [x29, #0x138]"
+    },
+    {
+      "offset": 89040,
+      "old": "b4430391",
+      "new": "b4830391",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj stack add\tx20, x29, #0xd0"
+    },
+    {
+      "offset": 89192,
+      "old": "b39f40f9",
+      "new": "b3af40f9",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj stack ldr\tx19, [x29, #0x138]"
+    },
+    {
+      "offset": 89232,
+      "old": "fd7bd4a8",
+      "new": "fd7bd6a8",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj stack ldp\tx29, x30, [sp], #0x140"
+    },
+    {
+      "offset": 89244,
+      "old": "fd7bada9",
+      "new": "fd7baba9",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t stack stp\tx29, x30, [sp, #-0x130]!"
+    },
+    {
+      "offset": 89328,
+      "old": "a49700f9",
+      "new": "a4a700f9",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t stack str\tx4, [x29, #0x128]"
+    },
+    {
+      "offset": 89336,
+      "old": "b4030391",
+      "new": "b4430391",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t stack add\tx20, x29, #0xc0"
+    },
+    {
+      "offset": 89476,
+      "old": "a29740f9",
+      "new": "a2a740f9",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t stack ldr\tx2, [x29, #0x128]"
+    },
+    {
+      "offset": 89512,
+      "old": "fd7bd3a8",
+      "new": "fd7bd5a8",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t stack ldp\tx29, x30, [sp], #0x130"
+    },
+    {
+      "offset": 89580,
+      "old": "fd7bafa9",
+      "new": "fd7bada9",
+      "reason": "_ZN13BpFingerPrint7getInfoEv stack stp\tx29, x30, [sp, #-0x110]!"
+    },
+    {
+      "offset": 89648,
+      "old": "a48700f9",
+      "new": "a49700f9",
+      "reason": "_ZN13BpFingerPrint7getInfoEv stack str\tx4, [x29, #0x108]"
+    },
+    {
+      "offset": 89652,
+      "old": "b3830291",
+      "new": "b3c30291",
+      "reason": "_ZN13BpFingerPrint7getInfoEv stack add\tx19, x29, #0xa0"
+    },
+    {
+      "offset": 89772,
+      "old": "a28740f9",
+      "new": "a29740f9",
+      "reason": "_ZN13BpFingerPrint7getInfoEv stack ldr\tx2, [x29, #0x108]"
+    },
+    {
+      "offset": 89800,
+      "old": "fd7bd1a8",
+      "new": "fd7bd3a8",
+      "reason": "_ZN13BpFingerPrint7getInfoEv stack ldp\tx29, x30, [sp], #0x110"
+    },
+    {
+      "offset": 89812,
+      "old": "fd7baca9",
+      "new": "fd7baaa9",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc stack stp\tx29, x30, [sp, #-0x140]!"
+    },
+    {
+      "offset": 89832,
+      "old": "b5430391",
+      "new": "b5830391",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc stack add\tx21, x29, #0xd0"
+    },
+    {
+      "offset": 89912,
+      "old": "a59f00f9",
+      "new": "a5af00f9",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc stack str\tx5, [x29, #0x138]"
+    },
+    {
+      "offset": 90060,
+      "old": "a29f40f9",
+      "new": "a2af40f9",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc stack ldr\tx2, [x29, #0x138]"
+    },
+    {
+      "offset": 90096,
+      "old": "fd7bd4a8",
+      "new": "fd7bd6a8",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc stack ldp\tx29, x30, [sp], #0x140"
+    },
+    {
+      "offset": 90144,
+      "old": "fd7bada9",
+      "new": "fd7baba9",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc stack stp\tx29, x30, [sp, #-0x130]!"
+    },
+    {
+      "offset": 90228,
+      "old": "a49700f9",
+      "new": "a4a700f9",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc stack str\tx4, [x29, #0x128]"
+    },
+    {
+      "offset": 90248,
+      "old": "b4030391",
+      "new": "b4430391",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc stack add\tx20, x29, #0xc0"
+    },
+    {
+      "offset": 90404,
+      "old": "a29740f9",
+      "new": "a2a740f9",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc stack ldr\tx2, [x29, #0x128]"
+    },
+    {
+      "offset": 90440,
+      "old": "fd7bd3a8",
+      "new": "fd7bd5a8",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc stack ldp\tx29, x30, [sp], #0x130"
+    },
+    {
+      "offset": 90452,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 90524,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 90544,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 90672,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 90704,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 90716,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 90784,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 90804,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 90920,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 90952,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 90964,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 91008,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 91020,
+      "old": "a18f00f9",
+      "new": "a19f00f9",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm stack str\tx1, [x29, #0x118]"
+    },
+    {
+      "offset": 91176,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 91208,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 91220,
+      "old": "fd7baba9",
+      "new": "fd7ba9a9",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi stack stp\tx29, x30, [sp, #-0x150]!"
+    },
+    {
+      "offset": 91312,
+      "old": "a6a700f9",
+      "new": "a6b700f9",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi stack str\tx6, [x29, #0x148]"
+    },
+    {
+      "offset": 91332,
+      "old": "b3830391",
+      "new": "b3c30391",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi stack add\tx19, x29, #0xe0"
+    },
+    {
+      "offset": 91496,
+      "old": "a2a740f9",
+      "new": "a2b740f9",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi stack ldr\tx2, [x29, #0x148]"
+    },
+    {
+      "offset": 91536,
+      "old": "fd7bd5a8",
+      "new": "fd7bd7a8",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi stack ldp\tx29, x30, [sp], #0x150"
+    },
+    {
+      "offset": 91628,
+      "old": "fd7bada9",
+      "new": "fd7baba9",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE stack stp\tx29, x30, [sp, #-0x130]!"
+    },
+    {
+      "offset": 91700,
+      "old": "a49700f9",
+      "new": "a4a700f9",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE stack str\tx4, [x29, #0x128]"
+    },
+    {
+      "offset": 91720,
+      "old": "b4030391",
+      "new": "b4430391",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE stack add\tx20, x29, #0xc0"
+    },
+    {
+      "offset": 91948,
+      "old": "a29740f9",
+      "new": "a2a740f9",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE stack ldr\tx2, [x29, #0x128]"
+    },
+    {
+      "offset": 91980,
+      "old": "fd7bd3a8",
+      "new": "fd7bd5a8",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE stack ldp\tx29, x30, [sp], #0x130"
+    },
+    {
+      "offset": 98644,
+      "old": "fd7baba9",
+      "new": "fd7ba9a9",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc stack stp\tx29, x30, [sp, #-0x150]!"
+    },
+    {
+      "offset": 98736,
+      "old": "a4a700f9",
+      "new": "a4b700f9",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc stack str\tx4, [x29, #0x148]"
+    },
+    {
+      "offset": 98776,
+      "old": "b3830391",
+      "new": "b3c30391",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc stack add\tx19, x29, #0xe0"
+    },
+    {
+      "offset": 98952,
+      "old": "a2a740f9",
+      "new": "a2b740f9",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc stack ldr\tx2, [x29, #0x148]"
+    },
+    {
+      "offset": 98988,
+      "old": "fd7bd5a8",
+      "new": "fd7bd7a8",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc stack ldp\tx29, x30, [sp], #0x150"
+    },
+    {
+      "offset": 100156,
+      "old": "fd7baca9",
+      "new": "fd7baaa9",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc stack stp\tx29, x30, [sp, #-0x140]!"
+    },
+    {
+      "offset": 100256,
+      "old": "a59f00f9",
+      "new": "a5af00f9",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc stack str\tx5, [x29, #0x138]"
+    },
+    {
+      "offset": 100260,
+      "old": "b7430391",
+      "new": "b7830391",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc stack add\tx23, x29, #0xd0"
+    },
+    {
+      "offset": 100404,
+      "old": "a19f40f9",
+      "new": "a1af40f9",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc stack ldr\tx1, [x29, #0x138]"
+    },
+    {
+      "offset": 100440,
+      "old": "fd7bd4a8",
+      "new": "fd7bd6a8",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc stack ldp\tx29, x30, [sp], #0x140"
+    },
+    {
+      "offset": 100480,
+      "old": "fd7baca9",
+      "new": "fd7baaa9",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii stack stp\tx29, x30, [sp, #-0x140]!"
+    },
+    {
+      "offset": 100576,
+      "old": "a49f00f9",
+      "new": "a4af00f9",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii stack str\tx4, [x29, #0x138]"
+    },
+    {
+      "offset": 100588,
+      "old": "b5430391",
+      "new": "b5830391",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii stack add\tx21, x29, #0xd0"
+    },
+    {
+      "offset": 100856,
+      "old": "a19f40f9",
+      "new": "a1af40f9",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii stack ldr\tx1, [x29, #0x138]"
+    },
+    {
+      "offset": 100892,
+      "old": "fd7bd4a8",
+      "new": "fd7bd6a8",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii stack ldp\tx29, x30, [sp], #0x140"
+    },
+    {
+      "offset": 102280,
+      "old": "fd7baca9",
+      "new": "fd7baaa9",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi stack stp\tx29, x30, [sp, #-0x140]!"
+    },
+    {
+      "offset": 102296,
+      "old": "b5430391",
+      "new": "b5830391",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi stack add\tx21, x29, #0xd0"
+    },
+    {
+      "offset": 102336,
+      "old": "a19f00f9",
+      "new": "a1af00f9",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi stack str\tx1, [x29, #0x138]"
+    },
+    {
+      "offset": 102624,
+      "old": "a29f40f9",
+      "new": "a2af40f9",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi stack ldr\tx2, [x29, #0x138]"
+    },
+    {
+      "offset": 102660,
+      "old": "fd7bd4a8",
+      "new": "fd7bd6a8",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi stack ldp\tx29, x30, [sp], #0x140"
+    },
+    {
+      "offset": 102672,
+      "old": "fd7baea9",
+      "new": "fd7baca9",
+      "reason": "_ZN20BpFingerPrintService5checkEi stack stp\tx29, x30, [sp, #-0x120]!"
+    },
+    {
+      "offset": 102744,
+      "old": "a48f00f9",
+      "new": "a49f00f9",
+      "reason": "_ZN20BpFingerPrintService5checkEi stack str\tx4, [x29, #0x118]"
+    },
+    {
+      "offset": 102748,
+      "old": "b4c30291",
+      "new": "b4030391",
+      "reason": "_ZN20BpFingerPrintService5checkEi stack add\tx20, x29, #0xb0"
+    },
+    {
+      "offset": 102872,
+      "old": "a28f40f9",
+      "new": "a29f40f9",
+      "reason": "_ZN20BpFingerPrintService5checkEi stack ldr\tx2, [x29, #0x118]"
+    },
+    {
+      "offset": 102904,
+      "old": "fd7bd2a8",
+      "new": "fd7bd4a8",
+      "reason": "_ZN20BpFingerPrintService5checkEi stack ldp\tx29, x30, [sp], #0x120"
+    },
+    {
+      "offset": 203979,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI CFA offset"
+    },
+    {
+      "offset": 203982,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 203984,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 203990,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 203992,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 203995,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 203997,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 204000,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 204002,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint13enableKeyModeEii CFI saved-register offset"
+    },
+    {
+      "offset": 204043,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI CFA offset"
+    },
+    {
+      "offset": 204046,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI saved-register offset"
+    },
+    {
+      "offset": 204048,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI saved-register offset"
+    },
+    {
+      "offset": 204054,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI saved-register offset"
+    },
+    {
+      "offset": 204056,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI saved-register offset"
+    },
+    {
+      "offset": 204059,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI saved-register offset"
+    },
+    {
+      "offset": 204062,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI saved-register offset"
+    },
+    {
+      "offset": 204064,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint19getIndexByfeatureIdEi CFI saved-register offset"
+    },
+    {
+      "offset": 204107,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI CFA offset"
+    },
+    {
+      "offset": 204110,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI saved-register offset"
+    },
+    {
+      "offset": 204112,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI saved-register offset"
+    },
+    {
+      "offset": 204118,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI saved-register offset"
+    },
+    {
+      "offset": 204120,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI saved-register offset"
+    },
+    {
+      "offset": 204123,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI saved-register offset"
+    },
+    {
+      "offset": 204126,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI saved-register offset"
+    },
+    {
+      "offset": 204128,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint9enableGscEi CFI saved-register offset"
+    },
+    {
+      "offset": 204171,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint10disableNavEv CFI CFA offset"
+    },
+    {
+      "offset": 204174,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint10disableNavEv CFI saved-register offset"
+    },
+    {
+      "offset": 204176,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint10disableNavEv CFI saved-register offset"
+    },
+    {
+      "offset": 204182,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint10disableNavEv CFI saved-register offset"
+    },
+    {
+      "offset": 204184,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint10disableNavEv CFI saved-register offset"
+    },
+    {
+      "offset": 204187,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint10disableNavEv CFI saved-register offset"
+    },
+    {
+      "offset": 204189,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint10disableNavEv CFI saved-register offset"
+    },
+    {
+      "offset": 204227,
+      "old": "b002",
+      "new": "d002",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI CFA offset"
+    },
+    {
+      "offset": 204230,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204232,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204238,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204240,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204243,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204245,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204247,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204250,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204252,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint9enableNavEiii CFI saved-register offset"
+    },
+    {
+      "offset": 204299,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv CFI CFA offset"
+    },
+    {
+      "offset": 204302,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204304,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204310,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204312,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204315,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204317,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint17disableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204355,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv CFI CFA offset"
+    },
+    {
+      "offset": 204358,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204360,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204366,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204368,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204371,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204373,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint16enableHbRetrieveEv CFI saved-register offset"
+    },
+    {
+      "offset": 204411,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint10driverTestEv CFI CFA offset"
+    },
+    {
+      "offset": 204414,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint10driverTestEv CFI saved-register offset"
+    },
+    {
+      "offset": 204416,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint10driverTestEv CFI saved-register offset"
+    },
+    {
+      "offset": 204422,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint10driverTestEv CFI saved-register offset"
+    },
+    {
+      "offset": 204424,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint10driverTestEv CFI saved-register offset"
+    },
+    {
+      "offset": 204427,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint10driverTestEv CFI saved-register offset"
+    },
+    {
+      "offset": 204429,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint10driverTestEv CFI saved-register offset"
+    },
+    {
+      "offset": 204467,
+      "old": "b002",
+      "new": "d002",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI CFA offset"
+    },
+    {
+      "offset": 204470,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204472,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204478,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204480,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204483,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204485,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204488,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204491,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204493,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint21setPauseRegisterStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204539,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv CFI CFA offset"
+    },
+    {
+      "offset": 204542,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv CFI saved-register offset"
+    },
+    {
+      "offset": 204544,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv CFI saved-register offset"
+    },
+    {
+      "offset": 204550,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv CFI saved-register offset"
+    },
+    {
+      "offset": 204552,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv CFI saved-register offset"
+    },
+    {
+      "offset": 204555,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv CFI saved-register offset"
+    },
+    {
+      "offset": 204557,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint15cancelRecognizeEv CFI saved-register offset"
+    },
+    {
+      "offset": 204595,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI CFA offset"
+    },
+    {
+      "offset": 204598,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204600,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204606,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204608,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204611,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204614,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204616,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint10saveRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204659,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI CFA offset"
+    },
+    {
+      "offset": 204662,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204664,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204670,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204672,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204675,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204678,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204680,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint8unRegistEi CFI saved-register offset"
+    },
+    {
+      "offset": 204723,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv CFI CFA offset"
+    },
+    {
+      "offset": 204726,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204728,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204734,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204736,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204739,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204741,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint11resetRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204779,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv CFI CFA offset"
+    },
+    {
+      "offset": 204782,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv CFI saved-register offset"
+    },
+    {
+      "offset": 204784,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv CFI saved-register offset"
+    },
+    {
+      "offset": 204790,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv CFI saved-register offset"
+    },
+    {
+      "offset": 204792,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv CFI saved-register offset"
+    },
+    {
+      "offset": 204795,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv CFI saved-register offset"
+    },
+    {
+      "offset": 204797,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint14registRollbackEv CFI saved-register offset"
+    },
+    {
+      "offset": 204835,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv CFI CFA offset"
+    },
+    {
+      "offset": 204838,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204840,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204846,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204848,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204851,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204853,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint12cancelRegistEv CFI saved-register offset"
+    },
+    {
+      "offset": 204891,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint6registEv CFI CFA offset"
+    },
+    {
+      "offset": 204894,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint6registEv CFI saved-register offset"
+    },
+    {
+      "offset": 204896,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint6registEv CFI saved-register offset"
+    },
+    {
+      "offset": 204902,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint6registEv CFI saved-register offset"
+    },
+    {
+      "offset": 204904,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint6registEv CFI saved-register offset"
+    },
+    {
+      "offset": 204907,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint6registEv CFI saved-register offset"
+    },
+    {
+      "offset": 204909,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint6registEv CFI saved-register offset"
+    },
+    {
+      "offset": 204947,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI CFA offset"
+    },
+    {
+      "offset": 204950,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204952,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204958,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204960,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204963,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204966,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 204968,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint15sendScreenStateEi CFI saved-register offset"
+    },
+    {
+      "offset": 205011,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint5queryEv CFI CFA offset"
+    },
+    {
+      "offset": 205014,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint5queryEv CFI saved-register offset"
+    },
+    {
+      "offset": 205016,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint5queryEv CFI saved-register offset"
+    },
+    {
+      "offset": 205022,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint5queryEv CFI saved-register offset"
+    },
+    {
+      "offset": 205024,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint5queryEv CFI saved-register offset"
+    },
+    {
+      "offset": 205027,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint5queryEv CFI saved-register offset"
+    },
+    {
+      "offset": 205029,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint5queryEv CFI saved-register offset"
+    },
+    {
+      "offset": 205067,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI CFA offset"
+    },
+    {
+      "offset": 205070,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI saved-register offset"
+    },
+    {
+      "offset": 205072,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI saved-register offset"
+    },
+    {
+      "offset": 205078,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI saved-register offset"
+    },
+    {
+      "offset": 205080,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI saved-register offset"
+    },
+    {
+      "offset": 205083,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI saved-register offset"
+    },
+    {
+      "offset": 205086,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI saved-register offset"
+    },
+    {
+      "offset": 205088,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint7setModeEi CFI saved-register offset"
+    },
+    {
+      "offset": 205131,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint10disconnectEv CFI CFA offset"
+    },
+    {
+      "offset": 205134,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint10disconnectEv CFI saved-register offset"
+    },
+    {
+      "offset": 205136,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint10disconnectEv CFI saved-register offset"
+    },
+    {
+      "offset": 205142,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint10disconnectEv CFI saved-register offset"
+    },
+    {
+      "offset": 205144,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint10disconnectEv CFI saved-register offset"
+    },
+    {
+      "offset": 205147,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint10disconnectEv CFI saved-register offset"
+    },
+    {
+      "offset": 205149,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint10disconnectEv CFI saved-register offset"
+    },
+    {
+      "offset": 205187,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI CFA offset"
+    },
+    {
+      "offset": 205190,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI saved-register offset"
+    },
+    {
+      "offset": 205192,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI saved-register offset"
+    },
+    {
+      "offset": 205198,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI saved-register offset"
+    },
+    {
+      "offset": 205200,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI saved-register offset"
+    },
+    {
+      "offset": 205203,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI saved-register offset"
+    },
+    {
+      "offset": 205205,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI saved-register offset"
+    },
+    {
+      "offset": 205207,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint13loadAllFpDataEPv CFI saved-register offset"
+    },
+    {
+      "offset": 205251,
+      "old": "b002",
+      "new": "d002",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI CFA offset"
+    },
+    {
+      "offset": 205254,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205256,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205262,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205264,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205267,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205269,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205272,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205274,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205277,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205279,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint19getFpTemplateIdListEPjS0_ CFI saved-register offset"
+    },
+    {
+      "offset": 205323,
+      "old": "c002",
+      "new": "e002",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI CFA offset"
+    },
+    {
+      "offset": 205326,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205328,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205334,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205336,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205339,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205341,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205344,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205346,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205349,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205351,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint21alipayTzInvokeCommandEjPvjS0_Pj CFI saved-register offset"
+    },
+    {
+      "offset": 205395,
+      "old": "b002",
+      "new": "d002",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI CFA offset"
+    },
+    {
+      "offset": 205398,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205400,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205406,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205408,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205411,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205413,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205416,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205418,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205420,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint17fillAuthTokenHmacEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205467,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI CFA offset"
+    },
+    {
+      "offset": 205470,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205472,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205478,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205480,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205483,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205485,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205488,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205490,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint14delFpTemplatesEPjj CFI saved-register offset"
+    },
+    {
+      "offset": 205531,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI CFA offset"
+    },
+    {
+      "offset": 205534,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205536,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205542,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205544,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205547,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205550,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205552,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint11checkPasswdEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205595,
+      "old": "d002",
+      "new": "f002",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI CFA offset"
+    },
+    {
+      "offset": 205598,
+      "old": "2a",
+      "new": "2e",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205600,
+      "old": "29",
+      "new": "2d",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205606,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205608,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205611,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205613,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205616,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205618,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205621,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205623,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205626,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205628,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint13recognizeFidoEP15hw_auth_token_tPhiS2_i CFI saved-register offset"
+    },
+    {
+      "offset": 205675,
+      "old": "c002",
+      "new": "e002",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI CFA offset"
+    },
+    {
+      "offset": 205678,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205680,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205686,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205688,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205691,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205693,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205696,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205698,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205701,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205703,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205705,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205707,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint21recognizeWithRestrictEPjjj CFI saved-register offset"
+    },
+    {
+      "offset": 205755,
+      "old": "b002",
+      "new": "d002",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI CFA offset"
+    },
+    {
+      "offset": 205758,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205760,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205766,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205768,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205771,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205773,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205776,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205778,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205780,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint9recognizeEP15hw_auth_token_t CFI saved-register offset"
+    },
+    {
+      "offset": 205827,
+      "old": "9002",
+      "new": "b002",
+      "reason": "_ZN13BpFingerPrint7getInfoEv CFI CFA offset"
+    },
+    {
+      "offset": 205830,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint7getInfoEv CFI saved-register offset"
+    },
+    {
+      "offset": 205832,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint7getInfoEv CFI saved-register offset"
+    },
+    {
+      "offset": 205838,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint7getInfoEv CFI saved-register offset"
+    },
+    {
+      "offset": 205840,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint7getInfoEv CFI saved-register offset"
+    },
+    {
+      "offset": 205843,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint7getInfoEv CFI saved-register offset"
+    },
+    {
+      "offset": 205845,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint7getInfoEv CFI saved-register offset"
+    },
+    {
+      "offset": 205883,
+      "old": "c002",
+      "new": "e002",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI CFA offset"
+    },
+    {
+      "offset": 205886,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205888,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205894,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205896,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205899,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205901,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205904,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205906,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205909,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205911,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint13getFpNameByIdEiPc CFI saved-register offset"
+    },
+    {
+      "offset": 205955,
+      "old": "b002",
+      "new": "d002",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI CFA offset"
+    },
+    {
+      "offset": 205958,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205960,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205966,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205968,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205971,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205973,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205976,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205978,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205981,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 205983,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint12modifyFpNameEiPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206027,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI CFA offset"
+    },
+    {
+      "offset": 206030,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206032,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206038,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206040,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206043,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206045,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206048,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206050,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint9setPasswdEPKcS1_ CFI saved-register offset"
+    },
+    {
+      "offset": 206091,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI CFA offset"
+    },
+    {
+      "offset": 206094,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206096,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206102,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206104,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206107,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206110,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206112,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint17requestPermissionEPKc CFI saved-register offset"
+    },
+    {
+      "offset": 206155,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI CFA offset"
+    },
+    {
+      "offset": 206158,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206160,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206166,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206168,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206171,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206173,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206175,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206177,
+      "old": "1d",
+      "new": "21",
+      "reason": "_ZN13BpFingerPrint12saveRegisterEmPm CFI saved-register offset"
+    },
+    {
+      "offset": 206219,
+      "old": "d002",
+      "new": "f002",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI CFA offset"
+    },
+    {
+      "offset": 206222,
+      "old": "2a",
+      "new": "2e",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206224,
+      "old": "29",
+      "new": "2d",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206230,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206232,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206235,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206237,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206239,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206242,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206244,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206247,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206249,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN13BpFingerPrint7SendCmdEiPciPS0_Pi CFI saved-register offset"
+    },
+    {
+      "offset": 206299,
+      "old": "b002",
+      "new": "d002",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI CFA offset"
+    },
+    {
+      "offset": 206302,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206304,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206310,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206312,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206315,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206317,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206320,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206322,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint7connectERKN7android2spINS0_18IFingerPrintClientEEE CFI saved-register offset"
+    },
+    {
+      "offset": 206547,
+      "old": "d002",
+      "new": "f002",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI CFA offset"
+    },
+    {
+      "offset": 206550,
+      "old": "2a",
+      "new": "2e",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206552,
+      "old": "29",
+      "new": "2d",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206558,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206560,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206563,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206565,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206568,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206570,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206573,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206575,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206577,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 206579,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN13BpFingerPrint17getFpTemplateListEPjS0_PPc CFI saved-register offset"
+    },
+    {
+      "offset": 207211,
+      "old": "c002",
+      "new": "e002",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI CFA offset"
+    },
+    {
+      "offset": 207214,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207216,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207222,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207224,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207227,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207229,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207231,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207234,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207236,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207238,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207240,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN19BpFingerPrintClient12dataCallbackEiiPc CFI saved-register offset"
+    },
+    {
+      "offset": 207283,
+      "old": "c002",
+      "new": "e002",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI CFA offset"
+    },
+    {
+      "offset": 207286,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207288,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207294,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207296,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207299,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207301,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207303,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207306,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207308,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207311,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 207313,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN19BpFingerPrintClient14notifyCallbackEiii CFI saved-register offset"
+    },
+    {
+      "offset": 208123,
+      "old": "c002",
+      "new": "e002",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI CFA offset"
+    },
+    {
+      "offset": 208126,
+      "old": "28",
+      "new": "2c",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208128,
+      "old": "27",
+      "new": "2b",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208134,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208136,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208139,
+      "old": "26",
+      "new": "2a",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208141,
+      "old": "25",
+      "new": "29",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208144,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208146,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208149,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208151,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi CFI saved-register offset"
+    },
+    {
+      "offset": 208195,
+      "old": "a002",
+      "new": "c002",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI CFA offset"
+    },
+    {
+      "offset": 208198,
+      "old": "24",
+      "new": "28",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI saved-register offset"
+    },
+    {
+      "offset": 208200,
+      "old": "23",
+      "new": "27",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI saved-register offset"
+    },
+    {
+      "offset": 208206,
+      "old": "20",
+      "new": "24",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI saved-register offset"
+    },
+    {
+      "offset": 208208,
+      "old": "1f",
+      "new": "23",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI saved-register offset"
+    },
+    {
+      "offset": 208211,
+      "old": "1e",
+      "new": "22",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI saved-register offset"
+    },
+    {
+      "offset": 208214,
+      "old": "22",
+      "new": "26",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI saved-register offset"
+    },
+    {
+      "offset": 208216,
+      "old": "21",
+      "new": "25",
+      "reason": "_ZN20BpFingerPrintService5checkEi CFI saved-register offset"
+    }
+  ]
+}

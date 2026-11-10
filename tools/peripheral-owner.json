@@ -1,0 +1,219 @@
+{
+  "input_sha256": "d93c61dc8b61f9d996fa510ac512ac40820035c428b99c1737ca4b76eab5759c",
+  "output_sha256": "bec3d95558787db3a07f55b8ca8626b455adfdd9cd3b442b527979c6cb201719",
+  "assembly_sha256": "98ff8b24977db2fa56af1a196dc939f48a0560299cc17e9c95fa4bc73d2c7114",
+  "object_bytes": 96,
+  "patches": [
+    {
+      "offset": 21916,
+      "old": "f3030191",
+      "new": "f803002a"
+    },
+    {
+      "offset": 21920,
+      "old": "79420191",
+      "new": "f70301aa"
+    },
+    {
+      "offset": 21924,
+      "old": "f803002a",
+      "new": "a8831af8"
+    },
+    {
+      "offset": 21928,
+      "old": "e00319aa",
+      "new": "000c8052"
+    },
+    {
+      "offset": 21932,
+      "old": "f70301aa",
+      "new": "87f9ff97"
+    },
+    {
+      "offset": 21936,
+      "old": "a8831af8",
+      "new": "f30300aa"
+    },
+    {
+      "offset": 21940,
+      "old": "edf9ff97",
+      "new": "79420191"
+    },
+    {
+      "offset": 21944,
+      "old": "d40000d0",
+      "new": "e00319aa"
+    },
+    {
+      "offset": 21948,
+      "old": "94420891",
+      "new": "ebf9ff97"
+    },
+    {
+      "offset": 21952,
+      "old": "81620091",
+      "new": "94e20c10"
+    },
+    {
+      "offset": 21956,
+      "old": "e0030191",
+      "new": "81620091"
+    },
+    {
+      "offset": 21960,
+      "old": "ecf9ff97",
+      "new": "e00313aa"
+    },
+    {
+      "offset": 21964,
+      "old": "7c027db2",
+      "new": "ebf9ff97"
+    },
+    {
+      "offset": 21968,
+      "old": "81e20091",
+      "new": "7c220091"
+    },
+    {
+      "offset": 21972,
+      "old": "e0031caa",
+      "new": "81e20091"
+    },
+    {
+      "offset": 21976,
+      "old": "ecf9ff97",
+      "new": "e0031caa"
+    },
+    {
+      "offset": 21980,
+      "old": "d50000d0",
+      "new": "ebf9ff97"
+    },
+    {
+      "offset": 21984,
+      "old": "b5420291",
+      "new": "48d60c10"
+    },
+    {
+      "offset": 21988,
+      "old": "a8420591",
+      "new": "09e10191"
+    },
+    {
+      "offset": 21992,
+      "old": "ffa308a9",
+      "new": "682600a9"
+    },
+    {
+      "offset": 21996,
+      "old": "a8620091",
+      "new": "08e10491"
+    },
+    {
+      "offset": 22000,
+      "old": "0001679e",
+      "new": "7fa204a9"
+    },
+    {
+      "offset": 22004,
+      "old": "a8420291",
+      "new": "69820091"
+    },
+    {
+      "offset": 22008,
+      "old": "69820091",
+      "new": "692602a9"
+    },
+    {
+      "offset": 22012,
+      "old": "001d184e",
+      "new": "7ffe03a9"
+    },
+    {
+      "offset": 22016,
+      "old": "e013803d",
+      "new": "7f1a00f9"
+    },
+    {
+      "offset": 22020,
+      "old": "e92706a9",
+      "new": "fff303a9"
+    },
+    {
+      "offset": 22024,
+      "old": "ffff07a9",
+      "new": "e00319aa"
+    },
+    {
+      "offset": 22028,
+      "old": "ff3b00f9",
+      "new": "e1030191"
+    },
+    {
+      "offset": 22032,
+      "old": "ff1f00f9",
+      "new": "0afaff97"
+    },
+    {
+      "offset": 22244,
+      "old": "e0030191",
+      "new": "802300d1"
+    },
+    {
+      "offset": 22620,
+      "old": "e82740f9",
+      "new": "880340f9"
+    },
+    {
+      "offset": 22748,
+      "old": "f3030191",
+      "new": "932300d1"
+    },
+    {
+      "offset": 22888,
+      "old": "f53740f9",
+      "new": "951340f9"
+    },
+    {
+      "offset": 23064,
+      "old": "f33740f9",
+      "new": "931340f9"
+    },
+    {
+      "offset": 23236,
+      "old": "f33740f9",
+      "new": "931340f9"
+    },
+    {
+      "offset": 23240,
+      "old": "e8030191",
+      "new": "882300d1"
+    },
+    {
+      "offset": 23276,
+      "old": "f33740f9",
+      "new": "931340f9"
+    },
+    {
+      "offset": 23388,
+      "old": "a8420591",
+      "new": "e00319aa"
+    },
+    {
+      "offset": 23392,
+      "old": "a9620091",
+      "new": "e1030191"
+    },
+    {
+      "offset": 23396,
+      "old": "e84b00f9",
+      "new": "a5f8ff97"
+    },
+    {
+      "offset": 23400,
+      "old": "2001679e",
+      "new": "23000014"
+    }
+  ],
+  "scope": "main heap owner/aliases/retained strong reference only; unchanged ELF/unwind/guards/protocol/QMI/SSR/destructors"
+}
