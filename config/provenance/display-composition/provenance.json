@@ -1,0 +1,20 @@
+{
+  "authority": "Nokia PLE official Android9 619F local stock",
+  "license_status": "proprietary-stock-local-extraction; redistribution-not-qualified",
+  "profile": "PLE_ENABLE_STOCK_SDM_EXTENSION=true; default enabled after PLE runtime qualification",
+  "source_built_core_hwc_gpu_userspace_unchanged": true,
+  "files": [
+    {
+      "source": "system/vendor/lib64/libsdmextension.so",
+      "target": "/vendor/lib64/libsdmextension.so",
+      "sha256": "fbefa88f5e3e2fa5847aac571ea0e6e72d9ffe21955774ae6796774c28139035",
+      "bytes": 397176
+    },
+    {
+      "source": "system/vendor/lib64/libscalar.so",
+      "target": "/vendor/lib64/libscalar.so",
+      "sha256": "0b8e85c5afe432899fbe830f2475672c4a4f107f2b55271ce196f55172f8e16b",
+      "bytes": 68416
+    }
+  ]
+}

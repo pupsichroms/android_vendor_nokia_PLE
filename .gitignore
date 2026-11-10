@@ -1,0 +1,4 @@
+# Exact proprietary payloads stay local; redistribution is not verified.
+/proprietary/
+__pycache__/
+*.pyc

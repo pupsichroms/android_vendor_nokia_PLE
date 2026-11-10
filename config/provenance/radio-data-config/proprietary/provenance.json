@@ -1,0 +1,16 @@
+{
+  "source": "exact619F signed OTA extraction",
+  "files": {
+    "netmgr_config.xml": {
+      "input_sha256": "b23d73feeddb91d60cb00d545c1b4edbdcff058511f08796e29e28a3f507e6ad",
+      "output_sha256": "e815f43c75850bd5c073c913d287b9163d20efba52d561b85076761557b0a969"
+    },
+    "dsi_config.xml": {
+      "input_sha256": "14d91e49d00fe2b20fcfe32861b2bf6c02067877e3f7de6371a668208bc459fe",
+      "output_sha256": "14d91e49d00fe2b20fcfe32861b2bf6c02067877e3f7de6371a668208bc459fe"
+    }
+  },
+  "only_adaptation": "feero rtm_rmnet_data_enabled=1 for real CONFIG_RMNET4.19; existing stock rtrmnet API, no fake success",
+  "reference": "Mi-Thorium proprietary_vendor_xiaomi_mithorium-common-4.19 ef0e4b987e555e0c5ff4850cff497695c8638a75 uses this selector on newer-platform entries, NOT identical feero settings",
+  "no_kernel_firmware_NV_carrier_APN_security_change": true
+}

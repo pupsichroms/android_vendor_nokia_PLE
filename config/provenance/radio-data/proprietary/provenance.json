@@ -1,0 +1,84 @@
+{
+  "source": "exact619F signed OTA extraction",
+  "patchelf_version": "0.18.0",
+  "transform": "netmgrd DT_NEEDED libhidlbase_shim.so ONLY; code/unwind/data unchanged",
+  "files": {
+    "vendor/bin/netmgrd": {
+      "input_sha256": "fc97d495473fbf03df9a3aea1eda1560fcb4e2be6fcb4efa9dcc21fe6e07279d",
+      "output_sha256": "e30675b4fd3e4826d195c0ecbeb2e5fb3e97231e1c2442c0ab3cde9d98aa4aaf"
+    },
+    "vendor/etc/data/netmgr_config.xml": {
+      "input_sha256": "b23d73feeddb91d60cb00d545c1b4edbdcff058511f08796e29e28a3f507e6ad",
+      "output_sha256": "b23d73feeddb91d60cb00d545c1b4edbdcff058511f08796e29e28a3f507e6ad"
+    },
+    "vendor/lib64/com.quicinc.cne.api@1.0.so": {
+      "input_sha256": "c89a5c6f32460665e2191defe9569ca3186f633b3a178b6854abfd4c9ba393ee",
+      "output_sha256": "c89a5c6f32460665e2191defe9569ca3186f633b3a178b6854abfd4c9ba393ee"
+    },
+    "vendor/lib64/com.quicinc.cne.api@1.1.so": {
+      "input_sha256": "25714b65746c230a1d4322ed782b72c876bded2548e70238fe6e3cf9b7648d47",
+      "output_sha256": "25714b65746c230a1d4322ed782b72c876bded2548e70238fe6e3cf9b7648d47"
+    },
+    "vendor/lib64/com.quicinc.cne.constants@1.0.so": {
+      "input_sha256": "120621b595f630429f0aca4da970717475ffb46490253b38874da87809e55e91",
+      "output_sha256": "120621b595f630429f0aca4da970717475ffb46490253b38874da87809e55e91"
+    },
+    "vendor/lib64/com.quicinc.cne.constants@2.0.so": {
+      "input_sha256": "47b6b681f9c3dc63568ab503f82a6d04596c035e9d5ec7c0985f2a34c7f28746",
+      "output_sha256": "47b6b681f9c3dc63568ab503f82a6d04596c035e9d5ec7c0985f2a34c7f28746"
+    },
+    "vendor/lib64/com.quicinc.cne.constants@2.1.so": {
+      "input_sha256": "f6adb8783b580aa328fd335b6fa35b6ac3ffe7a7162384a9cc7c91565ad18ce1",
+      "output_sha256": "f6adb8783b580aa328fd335b6fa35b6ac3ffe7a7162384a9cc7c91565ad18ce1"
+    },
+    "vendor/lib64/com.quicinc.cne.server@2.0.so": {
+      "input_sha256": "06ba356e153a53e1ce2914b89cafaee4ca6158a1a0c88abcac66cfd50534787c",
+      "output_sha256": "06ba356e153a53e1ce2914b89cafaee4ca6158a1a0c88abcac66cfd50534787c"
+    },
+    "vendor/lib64/com.quicinc.cne.server@2.1.so": {
+      "input_sha256": "50dd7252e43c5c079399d5330180affe25ecd78ba5d6147c843108e2d88d5cdf",
+      "output_sha256": "50dd7252e43c5c079399d5330180affe25ecd78ba5d6147c843108e2d88d5cdf"
+    },
+    "vendor/lib64/com.quicinc.cne.server@2.2.so": {
+      "input_sha256": "843b1f561e9ada5b33ed229e07f712201d289f18afbec025a9a75c4b55e567fb",
+      "output_sha256": "843b1f561e9ada5b33ed229e07f712201d289f18afbec025a9a75c4b55e567fb"
+    },
+    "vendor/lib64/libcneapiclient.so": {
+      "input_sha256": "3bc10e69bc471625f969206245e91dd25b88821c3d773c8e250c2fafc2d6e48d",
+      "output_sha256": "3bc10e69bc471625f969206245e91dd25b88821c3d773c8e250c2fafc2d6e48d"
+    },
+    "vendor/lib64/libnetmgr_common.so": {
+      "input_sha256": "3a32ae741e9cb821893150d0ea814e89b3dfdf0f9b11491c43fb68bcc12d8a1e",
+      "output_sha256": "3a32ae741e9cb821893150d0ea814e89b3dfdf0f9b11491c43fb68bcc12d8a1e"
+    },
+    "vendor/lib64/libnlnetmgr.so": {
+      "input_sha256": "1be455f785e52eeda85826d46d4e5cf89b7fd072cff77336f80de0936005733e",
+      "output_sha256": "1be455f785e52eeda85826d46d4e5cf89b7fd072cff77336f80de0936005733e"
+    },
+    "vendor/lib64/librmnetctl.so": {
+      "input_sha256": "8a19ccd6fdc9dc98a43b37e45511f928f3d9c3d8cb6dc49dff2404f3f0081117",
+      "output_sha256": "8a19ccd6fdc9dc98a43b37e45511f928f3d9c3d8cb6dc49dff2404f3f0081117"
+    },
+    "vendor/lib64/vendor.qti.data.factory@1.0.so": {
+      "input_sha256": "fca2ec13e9d9ed4901d8f5f2960916855954f76ca418a99cd4821a669eb7956c",
+      "output_sha256": "fca2ec13e9d9ed4901d8f5f2960916855954f76ca418a99cd4821a669eb7956c"
+    },
+    "vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so": {
+      "input_sha256": "d5a3406546d4c22fd09973941be74a635feaa2636ac3039c9abe19676f8425e1",
+      "output_sha256": "d5a3406546d4c22fd09973941be74a635feaa2636ac3039c9abe19676f8425e1"
+    },
+    "vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so": {
+      "input_sha256": "7545e91c8d3718e9fcde1e429efc9fcfafb19d788ad10ed309719fa52b5afa6f",
+      "output_sha256": "7545e91c8d3718e9fcde1e429efc9fcfafb19d788ad10ed309719fa52b5afa6f"
+    },
+    "vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so": {
+      "input_sha256": "8641982f1cae63eb83ff161cfc50b0a6f0092b13fd32432d921c2162ddc89eba",
+      "output_sha256": "8641982f1cae63eb83ff161cfc50b0a6f0092b13fd32432d921c2162ddc89eba"
+    },
+    "vendor/lib64/vendor.qti.latency@2.0.so": {
+      "input_sha256": "2a046ad90c6cafc38574b56767615ef397bd26dc9dfdaaf5c7cab26408e920b6",
+      "output_sha256": "2a046ad90c6cafc38574b56767615ef397bd26dc9dfdaaf5c7cab26408e920b6"
+    }
+  },
+  "no_firmware_NV_calibration_protocol_change": true
+}

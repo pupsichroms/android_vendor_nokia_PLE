@@ -1,0 +1,8 @@
+{
+  "source": "registered exact619F native netmgr, existing GLOBAL HIDL bridge",
+  "input_sha256": "fc97d495473fbf03df9a3aea1eda1560fcb4e2be6fcb4efa9dcc21fe6e07279d",
+  "output_sha256": "0ba371d932377e42f52d925734fe355b1c53bb0e36b458780b9fabca70be04c2",
+  "only_delta": "DT_NEEDED libple_netmgr_bam.so, GLOBAL HIDL retained first",
+  "native_code_rodata_unwind_entrypoint_unchanged": true,
+  "no_preload_environment_or_security_bypass": true
+}
