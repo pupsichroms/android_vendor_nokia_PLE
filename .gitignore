@@ -1,4 +1,3 @@
-# Exact proprietary payloads stay local; redistribution is not verified.
-/proprietary/
+# Generated Python caches are not build inputs.
 __pycache__/
 *.pyc
