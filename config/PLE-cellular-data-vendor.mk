@@ -5,12 +5,11 @@ PLE_NETMGR_DAEMON := vendor/nokia/PLE/proprietary/variants/radio-data/vendor/bin
 ifeq ($(PLE_CELLULAR_BAM_RTM),true)
 PLE_NETMGR_CONFIG := vendor/nokia/PLE/proprietary/vendor/etc/data/netmgr_config.xml
 PLE_NETMGR_DAEMON := vendor/nokia/PLE/proprietary/vendor/bin/netmgrd
-PRODUCT_COPY_FILES += \
-    vendor/nokia/PLE/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml
+PRODUCT_PACKAGES += ple-dsi-config
 endif
+PRODUCT_PACKAGES += ple-netmgr-config
 PRODUCT_COPY_FILES += \
     $(PLE_NETMGR_DAEMON):$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
-    $(PLE_NETMGR_CONFIG):$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/nokia/PLE/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.api@1.0.so \
     vendor/nokia/PLE/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.api@1.1.so \
     vendor/nokia/PLE/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.constants@1.0.so \
